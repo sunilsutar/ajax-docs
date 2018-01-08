@@ -20,7 +20,7 @@ The **RadDatePicker** control can work seamlessly with standard ASP.NET validati
 </telerik:RadDateInput>
 <asp:RangeValidator ID="DateInputRangeValidator" runat="server" ControlToValidate="RadDateInput1"
 	ErrorMessage="Choose a date between 5th of January 20015 and 1st of September 20015"
-	Display="Dynamic" MaximumValue="20015-09-01-00-00-00" MinimumValue="20015-01-05-00-00-00">
+	Display="Dynamic" MaximumValue="2015-09-01-00-00-00" MinimumValue="2015-01-05-00-00-00">
 </asp:RangeValidator>
 ````
 
